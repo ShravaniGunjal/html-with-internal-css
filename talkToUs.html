@@ -1,0 +1,450 @@
+<html>
+
+<head>
+    <title>Talk to Us - Star Bazaar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .background {
+            padding: 10px 35px;
+        }
+
+        .headerIcons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .img {
+            margin-left: 20px;
+            width: 65%;
+        }
+
+        .headerLogo {
+            display: flex;
+            align-items: center;
+            padding: 15px 0px;
+        }
+
+        .headerImage {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .Icons {
+            display: flex;
+            align-items: center;
+            font-size: 35px;
+            gap: 10px;
+            color: #808080;
+        }
+
+        .formBackground {
+            background-color: #d3d3d3;
+            /* width: 50%; */
+            margin-top: 30px;
+            padding: 25px;
+        }
+
+        .form {
+            width: 46%;
+            margin: auto;
+            text-align: center;
+            /* line-height: 0px; */
+            color: #7d5128;
+            font-weight: bold;
+            /* margin-top: 40px; */
+            /* padding: 25px; */
+        }
+
+        .formHeader {
+            font-size: 30px;
+        }
+
+        .formLine {
+            font-size: 15px;
+            padding: 20px 0px;
+            /* width: 48%;
+            display: flex;
+            justify-content: center; */
+        }
+
+        .label {
+            font-size: 18px;
+            /* width:100%; */
+        }
+
+        /* .formwidth{
+            width: 70%;
+            margin: auto;
+        } */
+
+        .inputBlock {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .input {
+            width: 80%;
+        }
+
+        .inputField {
+            padding: 10px;
+            border: 2px solid #7d5128;
+            border-radius: 30px;
+            width: 100%;
+            /* margin-left: 30px; */
+            /* margin-top: 20px; */
+        }
+
+        .endline {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .list {
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: #8c6743;
+            border: 2px solid #7d5128;
+        }
+
+        .textarea {
+            padding: 40px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .submitbutton {
+            padding: 7px 25px;
+            border: 2px solid #7d5128;
+            border-radius: 20px;
+            color: #7d5128;
+            background-color: white;
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0px
+        }
+
+        /* .footer{
+            /* float: left; */
+        /* width: 50%; */
+        /* } */
+        .footer {
+            background-color: #d3d3d3;
+            padding: 30px;
+        }
+
+        .footerImage {
+            width: 60%;
+            padding: 7px 40%;
+        }
+
+        .fSection {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .section {
+            margin-right: 50px;
+        }
+
+        button {
+            color: #626262;
+            padding: 10px 20px;
+            border: 2px solid #626262;
+            border-radius: 20px;
+            background-color: transparent;
+            font-weight: bold;
+            margin: 10px 0px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .imgSection {
+            text-align: center;
+            margin: 10px 0px;
+            color: #626262;
+            line-height: 22px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footerSection {
+            margin-right: 30px;
+        }
+
+        .footerLinks {
+            color: #565656;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: bold;
+        }
+
+        .footerLinks:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .footerIcons {
+            font-size: 18px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .Icons {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .twitter {
+            background-color: #55ACEE;
+            color: white;
+            padding: 5px 7px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .insta {
+            background-color: #D51F74;
+            color: white;
+            padding: 5px 7px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .messanger {
+            background-color: #565656;
+            color: white;
+            padding: 5px 7px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        .footerSentence {
+            color: #626262;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+
+        .info {
+            color: #825930;
+            text-align: center;
+            margin: 25px 0px;
+        }
+
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0px 18px;
+        }
+
+        .shareItNow {
+            font-size: 25px;
+            font-weight: bold;
+            padding: 0px 25px;
+        }
+
+        .details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hrText {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* color: #825930; */
+        }
+
+        .hr {
+            width: 40%;
+        }
+        hr{
+            border: 1px solid #825930;
+        }
+        .para {
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div>
+            <div class="headerIcons">
+                <div class="headerLogo">
+                    <div class="Icons"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                    <img src="https://starbazaarindia.com/cdn/shop/files/STAR_Logo_275x70px_2.jpg?v=1716440384"
+                        class="img">
+                </div>
+                <div class="Icons">
+                    <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="borderIcons">|</div>
+                    <div><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/Talk_to_us_1600P_X_656_P-01.jpg?v=1716440973"
+            class="headerImage">
+        <div class="formBackground">
+            <div class="form">
+                <div class="formHeader">WRITE TO US</div>
+                <div class="formLine">You can also reach out to us by filling the below form & we will get back to you
+                    at the earliest.
+                </div>
+                <div class="inputBlock">
+                    <div><label class="label">Name:</label></div>
+                    <div class="input"><input type="text" class="inputField"></div>
+                </div>
+                <div class="inputBlock">
+                    <div><label class="label">Mobile:</label></div>
+                    <div class="input"><input type="number" class="inputField"></div>
+                </div>
+                <div class="inputBlock">
+                    <div><label class="label">City:*</label></div>
+                    <div class="input"><input type="text" class="inputField"></div>
+                </div>
+                <div class="inputBlock">
+                    <div><label class="label">Email id:*</label></div>
+                    <div class="input"><input type="text" class="inputField"></div>
+                </div>
+
+                <div>
+                    <div class="inputBlock">
+                        <div></div>
+                        <div class="input">
+                            <div class="endline">WHAT CAN WE HELP YOU WITH?</div>
+                            <select class="list">
+                                <option>Quality of fruits and vegetables</option>
+                                <option>other quality issues</option>
+                                <option>Billing time</option>
+                                <option>Staff & service</option>
+                                <option>Home Delivery</option>
+                                <option>Promotions & offers</option>
+                                <option>Product</option>
+                                <option>Others</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="inputBlock">
+                    <div><label class="label">Details:*</label></div>
+                    <div class="input"><textarea class="textarea inputField"></textarea></div>
+                </div>
+                <button class="submitbutton">SUBMIT</button>
+            </div>
+        </div>
+        <div class="info">
+            <div class="hrText">
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="heading">CORPORATE OFFICE</div>
+                <div class="hr">
+                    <hr>
+                </div>
+            </div>
+            <div class="para">25th & 26th Floor, Lodha Excelus, New Cuffe Parade, Sewri - Chembur Road, Near Imax Dome
+                Theatre, Wadala,
+                Mumbai – 400037, Maharashtra, India.</div>
+            <div class="hrText">
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="heading">REGISTERED OFFICE</div>
+                <div class="hr">
+                    <hr>
+                </div>
+            </div>
+            <div class="para">26th floor, Vios Tower, New Cuffe Parade, Sewri – Chembur Road, Near Imax Dome, Eastern
+                Freeway, Wadala
+                –
+                400037</div>
+            <div class="hrText">
+                <div class="hr">
+                    <hr>
+                </div>
+                <div class="shareItNow">SHARE IT NOW</div>
+                <div class="hr">
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fSection">
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/01.png?v=1592310881"
+                        class="footerImage">
+                </div>
+                <div class="section">
+                    <img
+                        src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/STARQUIK_LOGO_223px_x_78-01.jpg?v=1716276071">
+                    <div class="imgSection">
+                        <div>Shop online.</div>
+                        <div>Download the app today.</div>
+                        <a href="https://www.starquik.com/"><button>SHOP NOW</button></a>
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="footerSection">
+                        <div><a href="https://starbazaarindia.com/pages/about-us" class="footerLinks">About Star</a>
+                        </div>
+                        <div><a href="https://starbazaarindia.com/pages/talk-to-us" class="footerLinks">Contact Us</a>
+                        </div>
+                        <div><a href="https://starbazaarindia.com/apps/s/storelocator" class="footerLinks">Store
+                                Locator</a></div>
+                    </div>
+                    <div class="footerSection">
+                        <div><a href="https://starbazaarindia.com/pages/policy" class="footerLinks">Policies</a></div>
+                        <div><a href="https://starbazaarindia.com/pages/terms-and-conditions" class="footerLinks">Terms
+                                & Conditions</a></div>
+                        <div><a href="https://starbazaarindia.com/pages/exchange-policy"
+                                class="footerLinks">Exchange/Return Policy</a></div>
+                        <div><a href="https://starbazaarindia.com/pages/csr" class="footerLinks">CSR</a></div>
+                        <div><a href="https://starbazaarindia.com/pages/stat-info" class="footerLinks">Statutory
+                                Information</a></div>
+                    </div>
+                    <div class="footerSection">
+                        <div><a href="#" class="footerLinks">Customer Care</a></div>
+                        <div><a href="#" class="footerLinks">Starhelp@trent-tata.com</a></div>
+                        <div><a href="#" class="footerLinks">+91 9029002233</a></div>
+                        <div class="footerLinks">Join us on</div>
+                        <div class="footerSection">
+                            <div class="Icons">
+                                <div class="footerIcons facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="footerIcons twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                <div class="footerIcons insta"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                <div class="footerIcons messanger"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerSentence">All rights reserved 2020 Trent Hypermarket Pvt Ltd</div>
+        </div>
+</body>
+
+</html>
