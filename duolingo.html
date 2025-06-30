@@ -211,15 +211,25 @@
         }
 
         .sectionImg {
-            /* position: relative; */
+            position: relative;
+            left: 1rem;
+            right: 2rem;
             margin-top: 40px;
         }
-
+        .appleImg{
+            position: relative;
+            right: 2rem;
+            /* left: 1rem; */
+            top: 0rem;
+            bottom: 4rem;
+        }
         .sectionDescription {
             color: #777;
             line-height: 24px;
             font-size: 20px;
-            margin-top: 20px;
+            padding: 10px 0px;
+            /* margin-top: 20px; */
+
 
         }
 
@@ -231,7 +241,38 @@
             color: #777;
             line-height: 24px;
             font-size: 20px;
-            margin-top: 10px;
+            /* margin-top: 10px; */
+        }
+
+        .seconddescriptioninteachers {
+            height: 100px;
+            
+        }
+
+        .teachername {
+            padding: 18px;
+            font-weight: bold;
+        }
+
+        .firstteacher {
+            margin-top: 25px;
+            /* color: #afafaf; */
+            font-weight: bold;
+            /* margin-bottom: 4PX; */
+        }
+
+        .schoolname {
+            padding: 10px;
+            /* font-weight: bold; */
+            color: #afafaf;
+        }
+
+        .firstschoolname {
+            margin-top: 15PX;
+            margin-bottom: 17px;
+            color: #afafaf;
+            /* font-size: 17px; */
+            /* font-weight: bold; */
         }
 
         .box {
@@ -310,30 +351,35 @@
             justify-content: center;
             margin-top: 30px;
         }
-        .thanksvdo{
+
+        .thanksvdo {
             border-radius: 15px;
 
         }
-        .howToUSe{
+
+        .howToUSe {
             display: flex;
             justify-content: center;
             padding: 90px 0px;
             /* border-bottom:2px solid lightgray ; */
             /* align-items: center; */
         }
-        .footerimg{
+
+        .footerimg {
             width: 50%;
             margin-left: 90px;
         }
-        .footerText{
-            width: 30%;
+
+        .footerText {
+            width: 35%;
             font-size: 55px;
             font-weight: bold;
             color: #4b4b4b;
             margin-left: 80px;
             /* margin: auto; */
         }
-        .getStarted{
+
+        .getStarted {
             background-color: #1cb0f6;
             padding: 15px 40px;
             border-radius: 12px;
@@ -342,10 +388,28 @@
             font-weight: bold;
             margin-top: 10px;
         }
-        .getStarted:hover{
+
+        .getStarted:hover {
             background-color: #51bbec;
             cursor: pointer;
         }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0px;
+            border-top: 2px solid #e5e5e5;
+            /* gap: 45px; */
+        }
+
+        .footerLinks {
+            color: #afafaf;
+            font-size: 15px;
+            margin: 0px 4px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        
     </style>
 </head>
 
@@ -411,38 +475,39 @@
                     <img
                         src="https://schools-cdn.duolingo.com/images/splash/teachers/b0b188089a2cb5d0359e6ec93f69f73d.png">
                     <img
-                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg">
+                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg" class="appleImg">
                 </div>
                 <div class="sectionDescription">Learning happens best when the application feels like a game. Duolingo
                     is just plain fun, and we are
                     able to leverage this in the classroom.</div>
-                <div>Pamela Parks</div>
-                <div>High School French, Spanish, & Japanese teacher</div>
+                <div class="firstteacher">Pamela Parks</div>
+                <div class="firstschoolname">High School French, Spanish, & Japanese teacher</div>
             </div>
             <div class="sectionBackground">
-                <div class="sectionSecondImg">
+                <div class="sectionImg">
                     <img
                         src="https://schools-cdn.duolingo.com/images/splash/teachers/c8176efe55f271f1874e5e239c2a686e.png">
                     <img
-                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg">
+                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg" class="appleImg">
                 </div>
-                <div class="sectionSecondDescription">I love that Duolingo is a quick and easy way for my students to
+                <div class="sectionDescription seconddescriptioninteachers">I love that Duolingo is a quick and easy way
+                    for my students to
                     keep practicing their Spanish outside
                     of the classroom.</div>
-                <div>Melissa Cantú</div>
-                <div>High School Spanish teacher</div>
+                <div class="teachername">Melissa Cantú</div>
+                <div class="schoolname">High School Spanish teacher</div>
             </div>
             <div class="sectionBackground">
                 <div class="sectionImg">
                     <img
                         src="https://schools-cdn.duolingo.com/images/splash/teachers/b2a7ea08f9ec09a4491ea3f471aec904.png">
                     <img
-                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg">
+                        src="https://schools-cdn.duolingo.com/images/splash/teachers/715431d94c9be726440306cde1f85962.svg" class="appleImg">
                 </div>
                 <div class="sectionDescription">I love using Duolingo because the element of gamification makes my
                     students forget that they are actually learning while playing.</div>
-                <div>Gitte Duus</div>
-                <div>High School language teacher</div>
+                <div class="teachername">Gitte Duus</div>
+                <div class="schoolname">High School language teacher</div>
             </div>
         </div>
     </div>
@@ -478,19 +543,20 @@
             <a href="https://schools.duolingo.com/signup"><button class="getStarted">GET STARTED</button></a>
         </div>
         <div class="footerImage">
-            <img src="https://schools-cdn.duolingo.com/images/splash/91df9aca9db7e77f8e3fada5fd9da9fb.png" class="footerimg">
+            <img src="https://schools-cdn.duolingo.com/images/splash/91df9aca9db7e77f8e3fada5fd9da9fb.png"
+                class="footerimg">
         </div>
     </div>
-    <div>
-        <a href="https://www.duolingo.com/">DUOLINGO</a>
-        <a href="https://www.duolingo.com/info">ABOUT</a>
-        <a href="https://careers.duolingo.com/">CAREERS</a>
-        <a href="https://www.duolingo.com/mobile">APPS</a>
-        <a href="https://duolingoschools.zendesk.com/hc/en-us">HELP</a>
-        <a href="https://www.duolingo.com/terms">TERMS</a>
-        <a href="https://www.duolingo.com/privacy">PRIVACY</a>
-        <a href="https://www.facebook.com/groups/duolingoeducators">FACEBOOK</a>
-        <a href="https://x.com/DuolingoSchools">TWITTER</a>
+    <div class="footer">
+        <a href="https://www.duolingo.com/" class="footerLinks">DUOLINGO</a>
+        <a href="https://www.duolingo.com/info" class="footerLinks">ABOUT</a>
+        <a href="https://careers.duolingo.com/" class="footerLinks">CAREERS</a>
+        <a href="https://www.duolingo.com/mobile" class="footerLinks">APPS</a>
+        <a href="https://duolingoschools.zendesk.com/hc/en-us" class="footerLinks">HELP</a>
+        <a href="https://www.duolingo.com/terms" class="footerLinks">TERMS</a>
+        <a href="https://www.duolingo.com/privacy" class="footerLinks">PRIVACY</a>
+        <a href="https://www.facebook.com/groups/duolingoeducators" class="footerLinks">FACEBOOK</a>
+        <a href="https://x.com/DuolingoSchools" class="footerLinks">TWITTER</a>
     </div>
 </body>
 
